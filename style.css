@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.hint{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.bubblegame {
+    height: 80vh;
+    width: 90vw;
+    max-width: 900px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.game-top {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(62, 252, 29);
+    height: 10%;
+    align-items: center;
+    color: rgb(0, 79, 12);
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.hits, .score, .timer {
+    display: flex;
+    gap: 10px;
+    background-color: aliceblue;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.game-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    gap: 10px;
+}
+
+.bubble {
+    height: 10vw;
+    width: 10vw;
+    max-height: 50px;
+    max-width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
